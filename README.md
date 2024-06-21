@@ -1,6 +1,6 @@
-# Important Notes about Mini-Online-Market
+# Mini-Online-Market
 
-# Credentials to Access this website are as follows:-
+# Credentials to Access this website:-
 Username         Password         role
 admin            1234             Admin
 sami             1234             Buyer
