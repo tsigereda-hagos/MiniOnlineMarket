@@ -18,9 +18,13 @@ This repository contains the source code for the Mini Online Market, a full-stac
 
 
 # Technologies Used
+
 •	Frontend: React, Redux, Material-UI, Axios
+
 •	Backend: Spring Boot, Spring Security, JPA, JWT for authentication
+
 •	Database: h2 database
+
 •	Documentation: Swagger UI
 
 
