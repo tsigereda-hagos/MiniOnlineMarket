@@ -1,0 +1,74 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Clean sans-serif font */
+    background-color: #f4f4f4; /* Light grey background */
+  }
+  
+  /* AppBar styling */
+  #buyerDash {
+    background-color: #ffffff; /* White background for the AppBar */
+    color: #333; /* Dark grey text for better readability */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  }
+  
+  #buyerDash h1 {
+    color: #333; /* Dark grey color for the title */
+  }
+  
+  #buyerDash .button {
+    background-color: #ffbb00; /* Bright yellow background for buttons */
+    color: #ffffff; /* White text */
+  }
+  
+  #buyerDash .button:hover {
+    background-color: #e6a700; /* Darker yellow on hover */
+  }
+  
+  /* Product card styling */
+  .Products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .Product-card {
+    background-color: #ffffff; /* White background for cards */
+    border: 1px solid #ddd; /* Light grey border */
+    width: 200px; /* Fixed width */
+    margin: 10px;
+    text-align: center; /* Centering text */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .Product-card img {
+    width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .Product-card h3 {
+    color: #333; /* Dark grey color for product name */
+    font-size: 16px;
+  }
+  
+  .Product-card p {
+    color: #666; /* Medium grey for price */
+    font-size: 14px;
+  }
+  
+  /* Button styling inside product cards */
+  .Product-card button {
+    background-color: #ffbb00; /* Bright yellow background */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners for the button */
+  }
+  
+  .Product-card button:hover {
+    background-color: #e6a700; /* Darker yellow on hover */
+  }
