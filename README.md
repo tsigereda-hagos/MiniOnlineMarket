@@ -27,26 +27,26 @@ cd MiniOnlineMarket
 2. Set up the Backend, switch to the main branch:
     git checkout main
     cd Backend/waa-main
+
 ** Start the Spring Boot server with the following command or run the project in your favorite IDE
  mvn spring-boot:run
 
-3. Set up the front end, switch to the master branch:
+4. Set up the front end, switch to the master branch:
 cd Frontend
 ** Install dependencies:
 npm install
 ** Start the development server:
 npm start
 
-4. Open your browser and navigate to http://localhost:3000
+5. Open your browser and navigate to http://localhost:3000
 
-5. API Documentation
+6. API Documentation
 After running the backend server, access the Swagger UI to view the API documentation at
  http://localhost:8080/swagger-ui.html
 
 
 ## UserDummy Data:
 Username         password         role
-
 admin            1234             Admin
 sami             1234             Buyer
 adonay           1234             Seller
