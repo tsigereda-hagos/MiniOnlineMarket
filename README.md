@@ -46,10 +46,17 @@ After running the backend server, access the Swagger UI to view the API document
 
 
 ## UserDummy Data:
-Username         password         role
-admin            1234             Admin
-sami             1234             Buyer
-adonay           1234             Seller
+Username: admin 
+password:  1234         
+role: Admin
+
+Username: sami 
+password:  1234         
+role: Buyer
+
+Username: adonay 
+password:  1234         
+role: Seller
 
 
 ## Group Members:
@@ -59,6 +66,3 @@ adonay           1234             Seller
 3.	Yosief Gebrewold
 4.	Tsigereda Hagos
 
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details
