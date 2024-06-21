@@ -5,10 +5,15 @@ This repository contains the source code for the Mini Online Market, a full-stac
 
 # Features
 •	User Authentication and Authorization: Secure login and registration processes for different user roles (Admin, Seller, Buyer).
+
 •	Product Management: Functionality to add, update, delete, and view products.
+
 •	Order Processing: Support for placing, canceling, shipping, and delivering orders.
+
 •	Review System: Allows customers to post and manage reviews for products.
+
 •	Dynamic Data Interaction: Real-time data handling using React state management and Redux for complex state scenarios.
+
 •	Admin and Seller Dashboards: Specialized dashboards for managing application specifics.
 
 
@@ -23,19 +28,25 @@ This repository contains the source code for the Mini Online Market, a full-stac
 1. Clone the repository
    
 git clone https://github.com/tsigereda-hagos/MiniOnlineMarket.git
+
 cd MiniOnlineMarket
 
 2. Set up the Backend, switch to the main branch:
+   
     git checkout main
+   
     cd Backend/waa-main
 
 ** Start the Spring Boot server with the following command or run the project in your favorite IDE
  mvn spring-boot:run
 
 3. Set up the front end, switch to the master branch:
+   
 cd Frontend
+
 ** Install dependencies:
 npm install
+
 ** Start the development server:
 npm start
 
